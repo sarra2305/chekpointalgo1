@@ -1,0 +1,54 @@
+
+var  
+    i:integer
+    s:string
+    begin
+    readln (sentence)
+    writeln i=sentence.lenght
+
+var   
+       S:string
+       i, n:integer
+ begin
+       n=0
+     pour i de 0 to sentence.lenght
+    if (s[i]:'') alors
+    n<-n+1
+    fin if
+    fin pour 
+    writeln n
+End
+  
+
+var 
+    s:string
+    i,n:integer
+begin
+   n=0
+   pour i de 0 à sentence.lenght
+   si (s[i]='a' ou s[i]='e' ou s[i]='i' ou s[i]='o' ou s[i]='u' ou s[i]='y')alors
+   n<-n+1
+   fin si
+   fin pour
+   writeln ("number of words: ",n)
+End
+ 
+var  
+    s:string
+    NE: n=0
+    NV: n=0
+    while ( s<>"0")
+    readln(S)
+    if(S=" ") faire
+    NE<-NE+1
+    fin if
+    if (s='a' ou s='e' ou s='i' ou ou s='o' ou s='u' ou s='y' ) faire
+    Nv<-nv+1
+    writeln(".")
+    fin if
+
+
+
+
+
+
